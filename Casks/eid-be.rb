@@ -15,4 +15,3 @@ cask 'eid-be' do
     depends_on_java
   end
 end
-
