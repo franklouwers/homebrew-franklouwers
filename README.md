@@ -1,10 +1,23 @@
 # Homebrew tap for Belgian eid middleware
 
 ### How do I use the tap?
+The following two commands will install the Middleware.
+
 ```
 brew tap franklouwers/eid-be
 brew cask install eid-be
 ```
+
+If you want to install the eID Viewer app as well, run this command after running the first two:
+
+```
+brew cask install eid-be-viewer
+```
+
+The eID Viewer app is a stand-alone application that reads the (basic) data
+from the eID card and allows you to create a nice printout of the eID data.
+
+
 
 ### Which version do you install?
 
