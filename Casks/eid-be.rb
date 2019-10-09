@@ -11,7 +11,4 @@ cask 'eid-be' do
 
   uninstall pkgutil: 'be.eid.*'
 
-  caveats do
-    depends_on_java
-  end
 end
