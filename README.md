@@ -1,10 +1,10 @@
-# Homebrew tap for Belgian eid middleware
+# Homebrew tap for various tools I like, including the Belgian eid middleware
 
 ### How do I use the tap?
 The following two commands will install the Middleware.
 
 ```
-brew tap franklouwers/eid-be
+brew tap franklouwers/homebrew-franklouwers
 brew cask install eid-be
 ```
 
