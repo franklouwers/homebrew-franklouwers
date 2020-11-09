@@ -4,7 +4,6 @@ cask 'eid-be' do
 
   url "https://eid.belgium.be/sites/default/files/software/eid-quickinstaller-#{version}.dmg"
   name 'Electronic identity card software of Belgium'
-  name 'eID Belgium Quickinstaller'
   homepage 'https://eid.belgium.be/'
 
   pkg 'eID-Quickinstaller-signed.pkg'

@@ -1,4 +1,4 @@
-class HelmAT2 < Formula
+class HelmAT216 < Formula
   desc "The Kubernetes package manager"
   homepage "https://helm.sh/"
   url "https://github.com/helm/helm.git",
@@ -9,13 +9,6 @@ class HelmAT2 < Formula
   livecheck do
     url :stable
     regex(/^v?(2(?:\.\d+)+)$/i)
-  end
-
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "f842166eae515ed30c9f91c0ad27994640332b889fb490c2fe2f4ef818501dac" => :catalina
-    sha256 "edc42658f135c42ca81df5a05184b209fd26e2ad78c93583646a219dbd33cbd5" => :mojave
-    sha256 "bf0f6e9a6a3d40e03b76f551bf88d6b2f81f825f063a139c90f804c56b94f885" => :high_sierra
   end
 
   keg_only :versioned_formula
