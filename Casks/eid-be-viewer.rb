@@ -1,8 +1,8 @@
 cask 'eid-be-viewer' do
-  version '4.4.22'
-  sha256 'bb6226581fd7775c69a9965431c4f60aa25531cbd7947e22afed94238707266b'
+  version '5.0.24'
+  sha256 'dcc2d9c421372e82444e25938d70fc624b0594e156fc0968135d69a0fcf2a026'
 
-  url "https://eid.belgium.be/sites/default/files/software/eid_viewer-#{version}.dmg"
+  url "https://eid.belgium.be/sites/default/files/software/eID viewer-#{version}.dmg"
   name 'Electronic identity card Viewer for Belgium'
   homepage 'https://eid.belgium.be/'
 
