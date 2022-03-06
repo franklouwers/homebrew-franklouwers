@@ -4,8 +4,6 @@ class KubePs1 < Formula
   license "Apache-2.0"
   head "https://github.com/franklouwers/kube-ps1.git"
 
-  bottle :unneeded
-
   depends_on "kubernetes-cli"
 
   def install
